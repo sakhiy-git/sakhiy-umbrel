@@ -15,8 +15,9 @@ repo: https://github.com/sakhiy-git/sakhiy-umbrel
 support: https://github.com/grocy/grocy/issues
 port: 10363
 gallery:
-  - https://grocy.info/img/screenshot-stock-overview.png
-  - https://grocy.info/img/screenshot-recipes.png
+  - 1
+  - 2
+  - 3
 path: ""
 defaultUsername: "admin"
 defaultPassword: "admin"
