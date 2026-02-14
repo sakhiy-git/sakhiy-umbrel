@@ -3,21 +3,17 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      # Menghubungkan proxy Umbrel ke service 'app' di bawah
       APP_HOST: grocy_app_1
-      # Port internal Grocy adalah 80
       APP_PORT: "80"
       
   app:
-    # Menggunakan image Grocy dari LinuxServer
     image: lscr.io/linuxserver/grocy:latest
-    container_name: grocy
+    # container_name dihapus agar diatur otomatis oleh Umbrel
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Asia/Jakarta
     volumes:
-      # Menyimpan data di folder aplikasi Umbrel
       - ${APP_DATA_DIR}/config:/config
     restart: on-failure
     stop_grace_period: 1m
