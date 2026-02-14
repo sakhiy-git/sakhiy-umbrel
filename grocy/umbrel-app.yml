@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: grocy
+category: Home & Automation
+name: Grocy
+version: "4.0.3"
+tagline: ERP for your fridge!
+description: >-
+  Grocy is a web-based self-hosted groceries & household management solution for your home.
+  Keep track of your purchases, expiration dates, and recipes.
+  It's like an ERP system for your kitchen!
+developer: Grocy
+website: https://grocy.info/
+dependencies: []
+# Ganti URL ini dengan URL repo GitHub milik Anda sendiri nanti
+repo: https://github.com/USERNAME-ANDA/umbrel-community-app-store
+support: https://github.com/grocy/grocy/issues
+# Port eksternal untuk akses (Pastikan tidak bentrok dengan app lain)
+port: 9283
+gallery:
+  - https://grocy.info/img/screenshot-stock-overview.png
+  - https://grocy.info/img/screenshot-recipes.png
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"
+# URL Icon Grocy
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grocy-icon.png
+submitter: UserSendiri
+submission: https://github.com/USERNAME-ANDA/umbrel-community-app-store
