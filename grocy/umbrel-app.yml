@@ -12,7 +12,7 @@ developer: Grocy
 website: https://grocy.info/
 dependencies: []
 # Ganti URL ini dengan URL repo GitHub milik Anda sendiri nanti
-repo: https://github.com/USERNAME-ANDA/umbrel-community-app-store
+repo: https://github.com/sakhiy-git/sakhiy-umbrel
 support: https://github.com/grocy/grocy/issues
 # Port eksternal untuk akses (Pastikan tidak bentrok dengan app lain)
 port: 10363
